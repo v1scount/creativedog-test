@@ -1,0 +1,156 @@
+import {StyleSheet, StatusBar, Platform, Dimensions} from 'react-native';
+import {colors} from '../../constants/colors';
+const width = Dimensions.get('window').width;
+const height = Dimensions.get('window').height;
+
+export const styles = StyleSheet.create({
+  heroContainer: {
+    backgroundColor: colors.backgroundBlack,
+    height: height / 1.2,
+  },
+  heroImage: {
+    width: width,
+    height: height,
+    top: -180,
+    right: -88,
+  },
+  heroText: {
+    color: colors.textWhite,
+    fontSize: 30,
+    top: 280,
+    paddingHorizontal: 60,
+    left: -40,
+    fontFamily: 'Raleway-Bold',
+    position: 'absolute',
+  },
+  heroButton: {
+    flexDirection: 'row',
+    backgroundColor: '#0500FF',
+    top: 424,
+    width: 200,
+    marginLeft: 20,
+    paddingVertical: 10,
+    borderRadius: 8,
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+  },
+  heroButtonText: {
+    color: colors.textWhite,
+    fontFamily: 'Raleway-Bold',
+    fontSize: 18,
+    marginRight: 8,
+    marginBottom: 4,
+  },
+  categoriesTitle: {
+    color: colors.textBlack,
+    fontFamily: 'Raleway-Bold',
+    fontSize: 32,
+    paddingRight: 32,
+    marginBottom: 4,
+    marginLeft: 20,
+    marginTop: 40,
+  },
+  categoriesTitleAccent: {
+    color: colors.textPrimary,
+    fontFamily: 'Raleway-Bold',
+    fontSize: 32,
+  },
+  categoriesText: {
+    color: colors.textGray,
+    fontFamily: 'Raleway-Medium',
+    fontSize: 20,
+    marginBottom: 4,
+    marginLeft: 20,
+    marginTop: 16,
+  },
+  allCategories: {
+    display: 'flex',
+    flexDirection: 'row',
+    marginLeft: 20,
+    marginTop: 16,
+  },
+  allCategoriesText: {
+    fontFamily: 'Raleway-Bold',
+    fontSize: 20,
+    color: colors.textPrimary,
+  },
+  higihlightedProducts: {
+    color: colors.textBlack,
+    fontFamily: 'Raleway-Bold',
+    fontSize: 32,
+    textAlign: 'left',
+    paddingRight: 60,
+    marginBottom: 4,
+    marginLeft: 20,
+    marginTop: 16,
+  },
+  higihlightedProductsAccent: {
+    color: colors.textPrimary,
+    fontFamily: 'Raleway-Bold',
+    fontSize: 32,
+  },
+  highlightedProductsText: {
+    color: colors.textGray,
+    fontFamily: 'Raleway-Medium',
+    fontSize: 20,
+    marginBottom: 4,
+    marginLeft: 20,
+    marginTop: 12,
+  },
+  gridContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    marginTop: 16,
+  },
+  firstGridRow: {
+    display: 'flex',
+    flexDirection: 'row',
+    marginBottom: 16,
+  },
+  secondGridRow: {
+    display: 'flex',
+    flexDirection: 'row',
+  },
+  gridImage: {
+    width: 180,
+    height: 180,
+    // marginRight: 8,
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+  },
+  whitePrice: {
+    position: 'absolute',
+    bottom: 0,
+    left: 8,
+    backgroundColor: 'white',
+    paddingHorizontal: 4,
+  },
+  whitePriceText: {
+    color: colors.textBlack,
+    // fontFamily: 'Raleway-Medium',
+    fontSize: 12,
+  },
+  redPriceText: {
+    color: colors.textRed,
+    fontSize: 12,
+  },
+  gridMainText: {
+    fontFamily: 'Raleway-Medium',
+    color: colors.textBlack,
+    fontSize: 16,
+  },
+  gridSecondaryText: {
+    fontFamily: 'Raleway-Medium',
+    color: colors.textGray,
+    fontSize: 12,
+  },
+  blueDiscount: {
+    position: 'absolute',
+    bottom: 16,
+    left: 8,
+    backgroundColor: '#0500FF',
+    paddingHorizontal: 4,
+  },
+});
