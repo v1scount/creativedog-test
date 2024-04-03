@@ -1,7 +1,0 @@
-#Fri Mar 29 01:48:37 ART 2024
-base.1=/Users/rodrigovellido/projects/creativedogTest/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
-path.1=classes2.dex
-base.0=/Users/rodrigovellido/projects/creativedogTest/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
-path.0=classes.dex
